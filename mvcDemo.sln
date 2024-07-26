@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcDemo", "mvcDemo\mvcDemo.csproj", "{126E5B42-5BB0-48E7-AF3C-DAA65175A56F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLayer", "BussinessLayer\BussinessLayer.csproj", "{4B0FD192-A105-43B9-9014-51B558465155}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{126E5B42-5BB0-48E7-AF3C-DAA65175A56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126E5B42-5BB0-48E7-AF3C-DAA65175A56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126E5B42-5BB0-48E7-AF3C-DAA65175A56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126E5B42-5BB0-48E7-AF3C-DAA65175A56F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0FD192-A105-43B9-9014-51B558465155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0FD192-A105-43B9-9014-51B558465155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0FD192-A105-43B9-9014-51B558465155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0FD192-A105-43B9-9014-51B558465155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {725991A8-17D8-4D51-A26D-B0A7AD05DEAB}
+	EndGlobalSection
+EndGlobal
