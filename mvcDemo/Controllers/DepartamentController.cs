@@ -17,6 +17,8 @@ namespace mvcDemo.Controllers
             List<Departament> departaments = db.Departament.ToList();
             string testcornel = "";
             testcornel = ""+"";
+            string test12 = "";
+            string test13 = "";
             return View("DepartmentsList", departaments);
         } 
        
