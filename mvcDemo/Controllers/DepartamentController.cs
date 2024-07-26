@@ -15,7 +15,8 @@ namespace mvcDemo.Controllers
         public ActionResult Index()
         {
             List<Departament> departaments = db.Departament.ToList();
-            string test = "";
+            string test12 = "";
+            string test13 = "";
             return View("DepartmentsList", departaments);
         } 
        
