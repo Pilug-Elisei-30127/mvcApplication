@@ -1,0 +1,27 @@
+﻿<table style=" font-family:Arial; border:1px solid black; width:300px">
+    <tr>
+        <td>
+            <img src="@(Model.Photo !=null ? Url.Content(Model.Photo) : "" )" width="100" height="100" alt="Image Not Found" />
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td><b>FullName: </b></td>
+                    <td><b> @Model.FullName</b></td>
+                </tr>
+                <tr>
+                    <td><b>Age: </b></td>
+                    <td><b>@Model.Age</b></td>
+                </tr>
+                <tr>
+                    <td><b>Gender: </b></td>
+                    <td><b>@Model.Gender</b></td>
+                </tr>
+                <tr>
+                    <td><b>Salary: </b></td>
+                    <td><b>@Model.Salary</b></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>

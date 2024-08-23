@@ -1,0 +1,102 @@
+﻿
+Employees-> savelogdata -> OnActionExecuting 	16/08/2024 11:55:29
+Employees-> savelogdata -> OnActionExecuted 	16/08/2024 11:55:29
+Employees-> savelogdata -> OnResultExecuting 	16/08/2024 11:55:29
+Employees-> savelogdata -> OnResultExecuted 	16/08/2024 11:55:29
+-------------------------------- 
+Employees-> savelogdata -> OnActionExecuting 	16/08/2024 11:55:43
+Employees-> savelogdata -> OnActionExecuted 	16/08/2024 11:55:43
+Employees-> savelogdata -> OnResultExecuting 	16/08/2024 11:55:43
+Employees-> savelogdata -> OnResultExecuted 	16/08/2024 11:55:43
+-------------------------------- 
+Employees-> savelogdata -> OnActionExecuting 	16/08/2024 11:55:54
+Employees-> savelogdata -> OnActionExecuted 	16/08/2024 11:55:54
+Employees-> savelogdata -> OnResultExecuting 	16/08/2024 11:55:54
+Employees-> savelogdata -> OnResultExecuted 	16/08/2024 11:55:54
+-------------------------------- 
+Employees-> welcome -> OnActionExecuting 	16/08/2024 11:56:47
+
+Employees-> Index -> OnActionExecuting 	16/08/2024 12:06:36
+Employees-> Index -> OnActionExecuted 	16/08/2024 12:06:39
+Employees-> Index -> OnResultExecuting 	16/08/2024 12:06:39
+Employees-> Index -> OnResultExecuted 	16/08/2024 12:06:42
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	16/08/2024 12:06:48
+Employees-> Index -> OnActionExecuted 	16/08/2024 12:06:49
+Employees-> Index -> OnResultExecuting 	16/08/2024 12:06:49
+Employees-> Index -> OnResultExecuted 	16/08/2024 12:06:49
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	16/08/2024 12:06:55
+Employees-> Index -> OnActionExecuted 	16/08/2024 12:06:55
+Employees-> Index -> OnResultExecuting 	16/08/2024 12:06:55
+Employees-> Index -> OnResultExecuted 	16/08/2024 12:06:55
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	19/08/2024 14:20:16
+
+Employees-> Index -> OnActionExecuting 	19/08/2024 14:27:21
+Employees-> Index -> OnActionExecuted 	19/08/2024 14:27:26
+Employees-> Index -> OnResultExecuting 	19/08/2024 14:27:26
+Employees-> Index -> OnResultExecuted 	19/08/2024 14:27:31
+-------------------------------- 
+Employees-> Edit -> OnActionExecuting 	19/08/2024 14:27:41
+Employees-> Edit -> OnActionExecuted 	19/08/2024 14:27:41
+Employees-> Edit -> OnResultExecuting 	19/08/2024 14:27:41
+Employees-> Edit -> OnResultExecuted 	19/08/2024 14:27:42
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	19/08/2024 14:28:13
+Employees-> Index -> OnActionExecuted 	19/08/2024 14:28:18
+Employees-> Index -> OnResultExecuting 	19/08/2024 14:28:18
+Employees-> Index -> OnResultExecuted 	19/08/2024 14:28:20
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	22/08/2024 10:18:58
+Employees-> Index -> OnActionExecuted 	22/08/2024 10:19:02
+Employees-> Index -> OnResultExecuting 	22/08/2024 10:19:02
+Employees-> Index -> OnResultExecuted 	22/08/2024 10:19:05
+-------------------------------- 
+Employees-> Details -> OnActionExecuting 	22/08/2024 10:19:14
+Employees-> Details -> OnActionExecuted 	22/08/2024 10:19:14
+Employees-> Details -> OnResultExecuting 	22/08/2024 10:19:14
+Employees-> Details -> OnResultExecuted 	22/08/2024 10:19:14
+-------------------------------- 
+Employees-> Edit -> OnActionExecuting 	22/08/2024 10:19:22
+Employees-> Edit -> OnActionExecuted 	22/08/2024 10:19:22
+Employees-> Edit -> OnResultExecuting 	22/08/2024 10:19:22
+Employees-> Edit -> OnResultExecuted 	22/08/2024 10:19:22
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	22/08/2024 10:19:54
+Employees-> Index -> OnActionExecuted 	22/08/2024 10:19:57
+Employees-> Index -> OnResultExecuting 	22/08/2024 10:19:57
+Employees-> Index -> OnResultExecuted 	22/08/2024 10:19:58
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	22/08/2024 10:20:16
+Employees-> Index -> OnActionExecuted 	22/08/2024 10:20:16
+Employees-> Index -> OnResultExecuting 	22/08/2024 10:20:16
+Employees-> Index -> OnResultExecuted 	22/08/2024 10:20:16
+-------------------------------- 
+Employees-> Delete -> OnActionExecuting 	22/08/2024 10:21:32
+Employees-> Delete -> OnActionExecuted 	22/08/2024 10:21:33
+Employees-> Delete -> OnResultExecuting 	22/08/2024 10:21:33
+Employees-> Delete -> OnResultExecuted 	22/08/2024 10:21:33
+-------------------------------- 
+Employees-> Delete -> OnActionExecuting 	22/08/2024 10:21:34
+Employees-> Delete -> OnActionExecuted 	22/08/2024 10:21:35
+Employees-> Delete -> OnResultExecuting 	22/08/2024 10:21:35
+Employees-> Delete -> OnResultExecuted 	22/08/2024 10:21:35
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	22/08/2024 10:21:35
+Employees-> Index -> OnActionExecuted 	22/08/2024 10:21:35
+Employees-> Index -> OnResultExecuting 	22/08/2024 10:21:35
+Employees-> Index -> OnResultExecuted 	22/08/2024 10:21:35
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	23/08/2024 09:08:11
+
+Employees-> Index -> OnActionExecuting 	23/08/2024 09:12:41
+Employees-> Index -> OnActionExecuted 	23/08/2024 09:12:45
+Employees-> Index -> OnResultExecuting 	23/08/2024 09:12:45
+Employees-> Index -> OnResultExecuted 	23/08/2024 09:12:49
+-------------------------------- 
+Employees-> Index -> OnActionExecuting 	23/08/2024 09:14:12
+Employees-> Index -> OnActionExecuted 	23/08/2024 09:14:15
+Employees-> Index -> OnResultExecuting 	23/08/2024 09:14:15
+Employees-> Index -> OnResultExecuted 	23/08/2024 09:14:16
+-------------------------------- 

@@ -1,0 +1,135 @@
+﻿@using PagedList;
+@using PagedList.Mvc; 
+
+@model IPagedList<mvcAPP.Models.Employee>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        td {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <p>
+        @using (Html.BeginForm("Index", "Employees", FormMethod.Get))
+        {
+            <b>Search By:</b>
+            @Html.RadioButton("searchBy", "FullName", true) <text>FullName</text>
+            @Html.RadioButton("searchBy", "Gender") <text>Gender</text> <br />
+            @Html.TextBox("search") <input type="submit" , value=" Search" />
+        }
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.ActionLink("Name", "Index", new { sortBy = ViewBag.SortNameParameter,searchBy = Request.QueryString["searchBy"], search = Request["search"]  })
+            </th>
+            <th>
+                @Html.ActionLink("Gender", "Index", new { sortBy = ViewBag.SortGenderParameter, searchBy = Request.QueryString["searchBy"], search = Request["search"] })
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().HireDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().PersonalWebSite)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Photo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().AlternateText)
+            </th>
+            <th>Actions</th>
+        </tr>
+        <!-- if the model count is zero-->
+        @if (Model.Count() == 0)
+        {
+            <tr>
+                <td colspan="10">No rows match your search condition </td>
+            </tr>
+        }
+        else
+        {
+
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Gender)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Age)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.HireDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Salary)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PersonalWebSite)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Photo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AlternateText)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                    </td>
+                </tr>
+            }
+        }
+
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchBy = Request.QueryString["searchBy"], search = Request.QueryString["search"],sortBy = Request.QueryString["sortBy"]  }), new PagedListRenderOptions() {Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation = true, DisplayItemSliceAndTotal = true })
+</body>
+</html>

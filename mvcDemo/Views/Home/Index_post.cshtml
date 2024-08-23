@@ -1,0 +1,14 @@
+﻿@model IEnumerable<mvcDemo.Models.City>
+@{
+    ViewBag.Title = "IndexCheck";
+}
+
+<h2>IndexCheck</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    <input type="submit" value="Submit" />
+
+}
+}

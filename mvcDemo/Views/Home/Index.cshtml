@@ -1,13 +1,13 @@
-﻿
+﻿@model IEnumerable<mvcDemo.Models.City>
 @{
-    ViewBag.Title = "Countries List";
+    ViewBag.Title = "IndexCheck";
 }
 
-<h2>Countris List</h2>
-<ul>
-    @foreach (string strCountry in (List<string>)ViewData[" Countries"])
-    {
- <li> @strCountry</li>
-    }
-</ul>
-    
+<h2>IndexCheck</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.EditorForModel()
+    <input type="submit" value="Submit" />
+}
+
