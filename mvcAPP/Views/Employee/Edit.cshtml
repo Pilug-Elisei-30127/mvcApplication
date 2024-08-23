@@ -1,0 +1,29 @@
+﻿@model mvcAPP.Models.Employee
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+<div style=" font-family:Arial">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+
+
+    @using (Html.BeginForm())
+    {
+        @Html.EditorForModel()
+        <br />
+        <br />
+        <input type="submit" value="Save" />
+    }
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+    <script type="text/javascript">
+        //$(function () {
+        //    $("#HireDate").datepicker({ dateFormat: "dd/MM/yyyy" });
+        //});
+    </script>

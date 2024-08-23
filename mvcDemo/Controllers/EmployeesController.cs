@@ -18,24 +18,24 @@ namespace mvcDemo.Controllers
         // GET: Employees
         public async Task<ActionResult> Index()
         {
-            var employees = db.Employees.Include(e => e.Departament);
-            return View(await employees.ToListAsync());
+            List<mvcDemo.Models.Employee> employees = db.Employees.Include(x => x.Departament).ToList(); db.Employees.Include(e => e.Departament);
+            return View(employees);
         }
 
-        public ActionResult DepartmentsByEmployee()
-        {
-            List<DepartmentsTotal> employees = db.Employees.Include(e => e.Departament)
-                      .GroupBy(x=> x.Departament.Name)
-                      .Select(y=> new DepartmentsTotal
-                      {
-                          Name=y.Key,
-                          Total=y.Count()
+        //public ActionResult DepartmentsByEmployee()
+        //{
+        //    List<DepartmentsTotal> employees = db.Employees.Include(e => e.Departament)
+        //              .GroupBy(x=> x.Departament.Name)
+        //              .Select(y=> new DepartmentsTotal
+        //              {
+        //                  Name=y.Key,
+        //                  Total=y.Count()
 
-                      }).OrderBy(x=>x.Total).ToList();
+        //              }).OrderBy(x=>x.Total).ToList();
 
 
-            return View(employees.ToList());
-        }
+        //    return View(employees.ToList());
+        //}
 
         // GET: Employees/Details/5
         public async Task<ActionResult> Details(int? id)

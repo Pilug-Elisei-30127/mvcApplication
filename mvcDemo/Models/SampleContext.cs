@@ -1,4 +1,6 @@
-﻿using System;
+﻿using mvcDemo.Controllers;
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
@@ -12,7 +14,7 @@ namespace mvcDemo.Models
     {
         public DbSet<Employee> Employee  { get; set; }
         public DbSet<Employee1> Employee1  { get; set; }
-        public DbSet<Departament>Departament  { get; set; }
+        public DbSet<DepartamentController>Departament  { get; set; }
 
     }
 

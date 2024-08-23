@@ -9,6 +9,8 @@
 
 namespace mvcDemo.Models
 {
+    using mvcDemo.Controllers;
+
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
@@ -25,7 +27,7 @@ namespace mvcDemo.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Departament> Departaments { get; set; }
+        public virtual DbSet<DepartamentController> Departaments { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
     }
 }

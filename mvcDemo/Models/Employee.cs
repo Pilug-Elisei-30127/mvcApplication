@@ -9,6 +9,8 @@
 
 namespace mvcDemo.Models
 {
+    using mvcDemo.Controllers;
+
     using System;
     using System.Collections.Generic;
     
@@ -20,6 +22,6 @@ namespace mvcDemo.Models
         public string City { get; set; }
         public int DepartamentId { get; set; }
     
-        public virtual Departament Departament { get; set; }
+        public virtual DepartamentController Departament { get; set; }
     }
 }

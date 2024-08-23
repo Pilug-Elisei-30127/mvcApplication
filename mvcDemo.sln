@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcDemo", "mvcDemo\mvcDemo.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLayer", "BussinessLayer\BussinessLayer.csproj", "{4B0FD192-A105-43B9-9014-51B558465155}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvcAPP", "mvcAPP\mvcAPP.csproj", "{2BD1E786-0E4C-4D95-BB0E-46DE0E4EEB03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4B0FD192-A105-43B9-9014-51B558465155}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B0FD192-A105-43B9-9014-51B558465155}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B0FD192-A105-43B9-9014-51B558465155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD1E786-0E4C-4D95-BB0E-46DE0E4EEB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD1E786-0E4C-4D95-BB0E-46DE0E4EEB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD1E786-0E4C-4D95-BB0E-46DE0E4EEB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD1E786-0E4C-4D95-BB0E-46DE0E4EEB03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
